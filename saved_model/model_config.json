@@ -1,0 +1,19 @@
+{
+  "model_class": "BertMultiTaskModel",
+  "base_model": "Rostlab/prot_bert",
+  "dropout": 0.3,
+  "pooling_strategy": "mean",
+  "max_length": 256,
+  "batch_size": 8,
+  "epochs_trained": 40,
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau",
+  "loss_functions": {
+    "rfu": "HuberLoss",
+    "cpp": "FocalLoss"
+  },
+  "task_weights": {
+    "alpha": 1.0,
+    "beta": 0.8
+  }
+}
