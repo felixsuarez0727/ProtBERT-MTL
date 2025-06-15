@@ -133,15 +133,15 @@ El modelo genera múltiples métricas y visualizaciones:
 
 **RFU (Regresión)**:
 
-- RMSE: 0.6714
-- MAE: 0.5352
-- R²: 0.5643
+- RMSE: 0.5352
+- MAE: 0.4079
+- R²: 0.7379
 
 **CPP (Clasificación)**:
 
 | Clase   | Precisión | Recall | F1-Score |
 | ------- | --------- | ------ | -------- |
-| non-CPP | 0.52      | 0.61   | 0.56     |
-| CPP     | 0.50      | 0.41   | 0.45     |
+| non-CPP | 0.60      | 0.63   | 0.62     |
+| CPP     | 0.59      | 0.56   | 0.7      |
 
-- **Exactitud (Accuracy)**: 0.51
+- **Exactitud (Accuracy)**: 0.59
