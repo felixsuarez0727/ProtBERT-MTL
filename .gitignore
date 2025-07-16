@@ -1,0 +1,14 @@
+
+venv/
+.venv/
+env/
+
+.vscode/
+__pycache__/
+
+
+*.pkl
+*.pth
+*.h5
+*.pt
+
