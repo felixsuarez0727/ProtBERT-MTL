@@ -33,6 +33,10 @@ El modelo utiliza **ProtBERT**, un BERT pre-entrenado en secuencias de proteína
 
 ## Arquitectura
 
+<img src="./saved_model/my_network.jpg" alt="Arquitectura del modelo" width="min-width 100%" height="auto">
+
+## Estructura del código
+
 El proyecto sigue una arquitectura limpia organizada en módulos especializados:
 
 ```
@@ -45,11 +49,9 @@ BERT-MTL/
 │   └── trainer.py      # Lógica de entrenamiento y evaluación
 ├── utils/
 │   └── utils.py        # Funciones auxiliares
-├── main.py
+├── ProBERT_MTL.ipynb
 └── README.md           # Documentación
 ```
-
-## Estructura del Código
 
 ### Módulos Principales
 
